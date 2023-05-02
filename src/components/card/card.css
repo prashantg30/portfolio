@@ -1,0 +1,19 @@
+.card-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 3rem auto;
+}
+.card-image img{
+    width:150px ;
+}
+@media (max-width:768px) {
+    .card-one{
+        flex-wrap: wrap;
+    }
+    .card-image img{
+        width: 120px;
+        margin-top: 1rem;
+    }
+}

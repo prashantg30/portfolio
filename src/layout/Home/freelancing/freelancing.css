@@ -1,0 +1,46 @@
+.freelancing-section{
+    background-image: url("../../../assets/bg_1.jpg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7rem 0;
+}
+.bg-color{
+    background-color: rgba(45, 8, 252, 0.636);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+.freelancing-h2{
+    font-size: 2.4rem;
+    color: white;
+    text-align: center;
+}
+.freelancing-h2 span{
+    color: greenyellow;
+}
+.freelancing-para{
+    margin: 1rem 0;
+    color: white;
+    text-align: center;
+    width: 42%;
+}
+
+.freelancing-button button{
+    width: 10rem;
+    font-size: .8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding: .9rem;
+    background-color: #435fce;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+}
+.freelancing-button button:hover{
+    cursor: pointer;
+    color: black;
+}
