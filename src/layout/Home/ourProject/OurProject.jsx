@@ -1,58 +1,63 @@
 import React from 'react'
 import '../ourProject/ourproject.css'
-import one from '../../../assets/design.avif'
+import var1 from '../../../assets/doctor.jpg';
+import farmers from '../../../assets/farmers1.jpg';
+import crm from '../../../assets/crm3.png';
+import oneMoney from '../../../assets/onemoney.png';
+import visa from '../../../assets/visa1.jpg';
+import cloud from '../../../assets/cloud3.jpg';
+
 const OurProject = () => {
     const data = [
         {
-            img:one,
-            head:"WEB DESIGN",
-          para:"A small river named Duden flows by their place and supplies it with the necessary regelialia."
+            img:var1,
+            head:"VAR'S DOCTOR APP",
+          para:"A mobile application for online medication and appointments with Doctor's"
         },
         {
-            img:one,
-            head:"WEB DESIGN",
-          para:"A small river named Duden flows by their place and supplies it with the necessary regelialia. "
+            img:farmers,
+            head:"IARI MOBILE APPLICATION",
+          para:"A mobile application for farmers for getting notification for crops care"
         },
         {
-            img:one,
-            head:"WEB DESIGN",
-          para:"A small river named Duden flows by their place and supplies it with the necessary regelialia."
+            img:crm,
+            head:"CRM",
+          para:"A customer relationship management tool designed using Node and React"
         },
         {
-            img:one,
-            head:"WEB DESIGN",
-          para:"A small river named Duden flows by their place and supplies it with the necessary regelialia."
+            img:oneMoney,
+            head:"ONEMONEY",
+          para:"A Fintech company which provides FIU, AA, FIP to banks and loan providers across India"
         },
         {
-            img:one,
-            head:"WEB DESIGN",
-          para:"A small river named Duden flows by their place and supplies it with the necessary regelialia."
+            img:visa,
+            head:"ASKEPRO",
+          para:"A online visa filing application as well as website"
         },
         {
-            img:one,
-            head:"WEB DESIGN",
-          para:"A small river named Duden flows by their place and supplies it with the necessary regelialia."
+            img:cloud,
+            head:"CLOUD APP",
+          para:"A app where user can purchase virtual machines online"
         },
 
     ]
   return (
     <div className='our-project-container'>
-        <h1>Services</h1>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+        <h1>Our Projects</h1>
+        <p className='container-para'>I worked on the following projects using different tech stacks</p>
         <div className="portfolio-container">
                 {
                     data.map((el, i) => (
                         <div className="portfolio-box" key={i}>
                             <img src={el.img} alt="" />
                             <div className="portfolio-layer">
-                                <p>{el.head}</p>
-                                <p> {el.para} </p>
+                                <p className='head-layer'>{el.head}</p>
+                                <p className='para-layer'> {el.para} </p>
                               
                             </div>
                         </div>
                     ))
                 }
-
             </div>
         </div>
   )

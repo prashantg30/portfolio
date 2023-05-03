@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer-content">
     <div className="about-footer">
       <h2>About</h2>
-      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      <p>I am a software developer with over 1.8 year’s experience working on complex software development initiatives. I’m passionate about software development and I’m looking forward to getting to work on new projects in the near future.</p>
       <div className="social-icon">
       <BsTwitter className='icon-fac'/>
         <BsFacebook  className='icon-fac'/>

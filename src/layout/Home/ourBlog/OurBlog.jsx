@@ -44,7 +44,7 @@ const OurBlog = () => {
 
          <div className="contact-form-container">
             <div className="contact-img">
-                <img src={myphoto} alt="" width={490} height={580}/>
+                <img src={myphoto} alt="" width={560} height={580}/>
             </div>
             <div className="contact-form">
                 <input type="text" id='name' name='name' placeholder='your name' /> <br />
