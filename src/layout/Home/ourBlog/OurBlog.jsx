@@ -53,7 +53,7 @@ const OurBlog = () => {
 
                 <textarea name="" id="" cols="30" rows="7" placeholder='message'></textarea>
                 <div className="send-button">
-                    <button>send sessage</button>
+                    <button>send message</button>
                 </div>
             </div>
          </div>

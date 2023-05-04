@@ -17,13 +17,13 @@ const SideBar = () => {
             </ul>
         </div>
         <div className="side-bar-right">
-        <div className="" >
+        <div className="test" onMouseOver={()=>setIndex(0)} >
        <Education/>
         </div>
-        <div className=""  >
+        <div className="" onMouseOver={()=>setIndex(1)} >
          <Experience/>
         </div>
-        <div className="" >
+        <div className=""onMouseOver={()=>setIndex(2)} >
         <Skills/>
         </div>
         {/* <div className=""  hidden={index!==3}>

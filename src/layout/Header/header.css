@@ -9,9 +9,14 @@
     margin: 0 auto;
     align-items: center;
     padding: 20px 0px 20px 0px;
-    position: relative;
-    z-index: 2;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+    animation-name: hello;
+    animation-duration: 4s;
 }
+
 .logo img{
     background-color: transparent;
     width: 120px;
@@ -68,7 +73,7 @@
     left: 46.8%;
     top:63.2%;
     transform: rotate(45deg);
-    z-index: 10 !important;
+    z-index: 8 !important;
 }
 .head-right{
     background-color: white;
@@ -77,7 +82,7 @@
 }
 .down-arrow{
     position: absolute;
-    z-index: 11;
+    z-index: 9;
     top: 71%;
     left: 49.5%;
     color: #3e64ff;
